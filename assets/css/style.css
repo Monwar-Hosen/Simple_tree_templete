@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+/* typography */
+a:hover {
+  color: #00abd4;
+}
+/* common content start */
+.font_2 {
+  font-weight: 100;
+}
+.font_3 {
+  font-weight: 300;
+}
+.full_container {
+  width: 100%;
+}
+.container {
+  max-width: 75%;
+  margin: 0px auto;
+}
+/*common bg color */
+.bg_primary {
+  background: #cccccc;
+}
+.bg_secondary {
+  background: #dddddd;
+}
+.bg_soft_light {
+  background: #f5f5f5;
+}
+.bg_light {
+  background: #ffffff;
+}
+.bg_blue {
+  background: #00c6f0;
+}
+/* common text color area */
+.text_dark {
+  color: #000000;
+}
+.text_blue {
+  color: #00abd4;
+}
+.text_soft_dark {
+  color: #999999;
+}
+.text_hard_dark {
+  color: #555555;
+}
+.text_light {
+  color: #ffffff;
+}
+/* common margin area */
+.m_0 {
+  margin: 0;
+}
+.mt_1 {
+  margin-top: 10px;
+}
+.mt_2 {
+  margin-top: 20px;
+}
+.mt_3 {
+  margin-top: 30px;
+}
+.mt_4 {
+  margin-top: 40px;
+}
+.mb_1 {
+  margin-bottom: 10px;
+}
+.mb_2 {
+  margin-bottom: 20px;
+}
+.mb_3 {
+  margin-bottom: 30px;
+}
+.mb_4 {
+  margin-bottom: 40px;
+}
+/* common padding */
+.p_0 {
+  padding: 0;
+}
+.p_1 {
+  padding: 10px;
+}
+.pl {
+  padding-left: 20px;
+}
+.pl_3 {
+  padding-left: 30px;
+}
+.pt_1 {
+  padding-top: 10px;
+}
+.pt_2 {
+  padding-top: 20px;
+}
+.pt_3 {
+  padding-top: 30px;
+}
+.pt_4 {
+  padding-top: 40px;
+}
+.pb_1 {
+  padding-bottom: 10px;
+}
+.pb_2 {
+  padding-bottom: 20px;
+}
+.pb_3 {
+  padding-bottom: 30px;
+}
+.pb_4 {
+  padding-bottom: 40px;
+}
+/* decoration area */
+.text_decoration_none {
+  text-decoration: none;
+}
+.bulled_none {
+  list-style: none;
+}
+.line_hight {
+  line-height: 140%;
+}
+.letter_space {
+  letter-spacing: 5px;
+}
+/* float area */
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.clear_both {
+  clear: both;
+}
+/* display area */
+.d_block {
+  display: block;
+}
+.d_inline_block {
+  display: inline-block;
+}
+.d_inline {
+  display: inline;
+}
+/* aline area */
+.aline_center {
+  text-align: center;
+}
+.aline_left {
+  text-align: left;
+}
+.aline_right {
+  text-align: right;
+}
+/* border area */
+.border {
+  border: 1px solid #dddddd;
+}
+.border_radius {
+  border-radius: 10px;
+}
+/* width */
+.w_25 {
+  width: 25%;
+}
+.w_75 {
+  width: 75%;
+}
+/* common content end */
+
+.menu ul li a {
+  padding: 7px 15px;
+  font-size: 14px;
+}
+.menu ul li {
+  margin: 0 10px;
+}
+
+.main_inner ul li {
+  list-style: url(../images/bullet.png);
+}
